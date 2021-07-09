@@ -1,2 +1,2 @@
 # Minion-translation-app
- This app translates english to minion language
+ This app translates english to minion language.
