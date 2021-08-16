@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,8 +9,27 @@
     <link rel="shortcut icon" href="/icons8-minion(2).svg" type="image/x-icon">
     <title>Minion App</title>
 </head>
+
 <body>
-    <h1>Talk banana</h1>
+
+    <header class="header">
+        <h1 class="title">Minion language translator</h1>
+    </header>
+    <main class="container">
+        <textarea name="textarea" id="text__area" placeholder="Put your message here" class="container__area" autofocus></textarea>
+        <button class="container__btn" id="btn">Translate</button>
+        <p>Translated message appears here 👇 :</p>
+        <div class="container__block" id="block"></div>
+    </main>
+    <footer class="footer">
+        <div class="about">About</div>
+        <p>Are you a fan of minions? Did you know that the gibberish they say is an actual language. Use the
+            translator
+            to convert your text from English to Minion speak or Banana language.
+        </p>
+    </footer>
+
     <script src="app.js"></script>
 </body>
+
 </html>
